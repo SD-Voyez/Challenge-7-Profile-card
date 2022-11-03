@@ -27,7 +27,9 @@ body
     min-height: 100vh;
     font-family: 'Kumbh Sans', sans-serif;
     background-color: hsl(185, 75%, 39%);
-    background-image: url(./images/bg-pattern-bottom.svg);
+    background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+    background-repeat: no-repeat, no-repeat;
+    background-position: left -35vh top -55vh, right -30vh bottom -70vh;
 }
 
 .container
@@ -113,4 +115,11 @@ li p
     font-size: 1.5em;
     color: hsl(229, 23%, 23%);
     margin-bottom: 5px;
+}
+
+@media all and (max-width: 400px) {
+    body
+    {
+        background-position: left -85vh top -80vh, right -95vh bottom -60vh;
+    }
 }
