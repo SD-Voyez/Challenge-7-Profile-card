@@ -120,6 +120,6 @@ li p
 @media all and (max-width: 400px) {
     body
     {
-        background-position: left -85vh top -80vh, right -95vh bottom -60vh;
+        background-position: left -100vh top -100vh, right -100vh bottom -100vh;
     }
 }
